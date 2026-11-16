@@ -1,0 +1,1172 @@
+{
+  "generated": "2026-11-08",
+  "count": 40,
+  "note": "Synthetic test data. All names, tax IDs, bank details and emails are invented.",
+  "vendors": [
+    {
+      "vendor_id": "V001",
+      "legal_name": "Divya Packaging Solutions Pvt Ltd",
+      "bank_account_name": "Divya Packaging Solutions Pvt Ltd",
+      "country": "India",
+      "tax_id": "29NZSEW3510P2ZE",
+      "tax_id_type": "GSTIN",
+      "bank_name": "State Bank of India",
+      "ifsc_or_swift": "SBIN0806251",
+      "account_number": "970644344283",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@divyapackagingsolu.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Bengaluru"
+    },
+    {
+      "vendor_id": "V002",
+      "legal_name": "Pooja Cosmetics Pvt Ltd",
+      "bank_account_name": "Pooja Cosmetics Pvt Ltd",
+      "country": "India",
+      "tax_id": "27OMGVC5631J1Z5",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Kotak Mahindra Bank",
+      "ifsc_or_swift": "KKBK0709608",
+      "account_number": "74477542672",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@poojacosmetics.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Mumbai"
+    },
+    {
+      "vendor_id": "V003",
+      "legal_name": "Nikhil IT Services Pvt Ltd",
+      "bank_account_name": "Nikhil IT Services Pvt Ltd",
+      "country": "India",
+      "tax_id": "29LVHBM1981Q9ZF",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "YESB0115081",
+      "account_number": "35071649104",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@nikhilitservices.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Bengaluru"
+    },
+    {
+      "vendor_id": "V004",
+      "legal_name": "Rekha Handicrafts",
+      "bank_account_name": "Rekha Handicrafts",
+      "country": "India",
+      "tax_id": "09VPTVH9041L4ZN",
+      "tax_id_type": "GSTIN",
+      "bank_name": "HDFC Bank",
+      "ifsc_or_swift": "HDFC0209641",
+      "account_number": "07655670379507",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@rekhahandicrafts.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Kanpur"
+    },
+    {
+      "vendor_id": "V005",
+      "legal_name": "Merlion Trading Pte Ltd",
+      "bank_account_name": "Merlion Trading Pte Ltd",
+      "country": "Singapore",
+      "tax_id": "201929804U",
+      "tax_id_type": "UEN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "BBCISGZBXXX",
+      "account_number": "43084496190312",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@merliontradingptel.com",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "incorporation_certificate",
+          "status": "present"
+        },
+        {
+          "type": "tax_registration",
+          "status": "present"
+        },
+        {
+          "type": "bank_statement",
+          "status": "present"
+        }
+      ],
+      "city": "Singapore"
+    },
+    {
+      "vendor_id": "V006",
+      "legal_name": "Summit Office Goods Inc",
+      "bank_account_name": "Summit Office Goods Inc",
+      "country": "USA",
+      "tax_id": "50-4803272",
+      "tax_id_type": "EIN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "JIQAUST9XXX",
+      "account_number": "94116997103998",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@summitofficegoodsi.com",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "incorporation_certificate",
+          "status": "present"
+        },
+        {
+          "type": "tax_registration",
+          "status": "present"
+        },
+        {
+          "type": "bank_statement",
+          "status": "present"
+        }
+      ],
+      "city": "Texas"
+    },
+    {
+      "vendor_id": "V007",
+      "legal_name": "Harborline Trading Co",
+      "bank_account_name": "Harborline Trading Co",
+      "country": "USA",
+      "tax_id": "60-0866067",
+      "tax_id_type": "EIN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "PGMBUSGIXXX",
+      "account_number": "33903442921",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@harborlinetradingc.com",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "incorporation_certificate",
+          "status": "present"
+        },
+        {
+          "type": "tax_registration",
+          "status": "present"
+        },
+        {
+          "type": "bank_statement",
+          "status": "present"
+        }
+      ],
+      "city": "California"
+    },
+    {
+      "vendor_id": "V008",
+      "legal_name": "Northgate Office Supplies Ltd",
+      "bank_account_name": "Northgate Office Supplies Ltd",
+      "country": "UK",
+      "tax_id": "GB409057244",
+      "tax_id_type": "VAT",
+      "bank_name": "HDFC Bank",
+      "ifsc_or_swift": "PVUMGBTGXXX",
+      "account_number": "405934362195",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@northgateofficesup.com",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "incorporation_certificate",
+          "status": "present"
+        },
+        {
+          "type": "tax_registration",
+          "status": "present"
+        },
+        {
+          "type": "bank_statement",
+          "status": "present"
+        }
+      ],
+      "city": "Manchester"
+    },
+    {
+      "vendor_id": "V009",
+      "legal_name": "Arjun Steel Traders",
+      "bank_account_name": "Arjun Steel Traders",
+      "country": "India",
+      "tax_id": "24ULKSI6962Y9ZV",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Kotak Mahindra Bank",
+      "ifsc_or_swift": "KKBK0709608",
+      "account_number": "20643433284844",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@arjunsteeltraders.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Ahmedabad"
+    },
+    {
+      "vendor_id": "V010",
+      "legal_name": "Deepak Hardware Traders",
+      "bank_account_name": "Deepak Hardware Traders",
+      "country": "India",
+      "tax_id": "27AIQFZ5531V8ZR",
+      "tax_id_type": "GSTIN",
+      "bank_name": "HDFC Bank",
+      "ifsc_or_swift": "HDFC0209641",
+      "account_number": "30102487206",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@deepakhardwaretrad.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        }
+      ],
+      "city": "Nagpur"
+    },
+    {
+      "vendor_id": "V011",
+      "legal_name": "Kavya Polymers Pvt Ltd",
+      "bank_account_name": "Kavya Polymers Pvt Ltd",
+      "country": "India",
+      "tax_id": "29IECQN6530X3ZW",
+      "tax_id_type": "GSTIN",
+      "bank_name": "HDFC Bank",
+      "ifsc_or_swift": "HDFC0209641",
+      "account_number": "08180522890298",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@kavyapolymers.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Bengaluru"
+    },
+    {
+      "vendor_id": "V012",
+      "legal_name": "Geeta Jewellers Pvt Ltd",
+      "bank_account_name": "Geeta Jewellers Pvt Ltd",
+      "country": "India",
+      "tax_id": "33DPQKX3331I2ZB",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Bank of Baroda",
+      "ifsc_or_swift": "BARB0162246",
+      "account_number": "65248110389",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@geetajewellers.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Madurai"
+    },
+    {
+      "vendor_id": "V013",
+      "legal_name": "Sanjay Agro Products",
+      "bank_account_name": "Sanjay Agro Products",
+      "country": "India",
+      "tax_id": "19FFHIY8918G7Z0",
+      "tax_id_type": "GSTIN",
+      "bank_name": "State Bank of India",
+      "ifsc_or_swift": "SBIN0806251",
+      "account_number": "04428884718",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@sanjayagroproducts.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        }
+      ],
+      "city": "Kolkata"
+    },
+    {
+      "vendor_id": "V014",
+      "legal_name": "Tanvi Home Decor Pvt Ltd",
+      "bank_account_name": "Tanvi Home Decor Pvt Ltd",
+      "country": "India",
+      "tax_id": "29ORTAD4259Y9ZY",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Punjab National Bank",
+      "ifsc_or_swift": "PUNB0071400",
+      "account_number": "172678664568",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@tanvihomedecor.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Bengaluru"
+    },
+    {
+      "vendor_id": "V015",
+      "legal_name": "Meera Pharma Distributors",
+      "bank_account_name": "Sanjay Agro Products",
+      "country": "India",
+      "tax_id": "36FXTGA8493F3ZV",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "YESB0115081",
+      "account_number": "64196553831153",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@meerapharmadistrib.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Hyderabad"
+    },
+    {
+      "vendor_id": "V016",
+      "legal_name": "Sathish Granites Pvt Ltd",
+      "bank_account_name": "Rekha Handicrafts",
+      "country": "India",
+      "tax_id": "36CFHQK0365U7Z6",
+      "tax_id_type": "GSTIN",
+      "bank_name": "State Bank of India",
+      "ifsc_or_swift": "SBIN0806251",
+      "account_number": "48086872078",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@sathishgranites.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Karimnagar"
+    },
+    {
+      "vendor_id": "V017",
+      "legal_name": "Rohit Logistics Pvt Ltd",
+      "bank_account_name": "Arjun Steel Traders",
+      "country": "India",
+      "tax_id": "09QYPMF8475P0Z7",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Kotak Mahindra Bank",
+      "ifsc_or_swift": "KKBK0709608",
+      "account_number": "124847731276",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@rohitlogistics.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Lucknow"
+    },
+    {
+      "vendor_id": "V018",
+      "legal_name": "Imran Trading Company",
+      "bank_account_name": "IMRAN TRADING COMPANY",
+      "country": "India",
+      "tax_id": "36YWFWK2414X5ZS",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Punjab National Bank",
+      "ifsc_or_swift": "PUNB0071400",
+      "account_number": "91798485367",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@imrantradingcompan.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Hyderabad"
+    },
+    {
+      "vendor_id": "V019",
+      "legal_name": "Ananya Textiles Pvt Ltd",
+      "bank_account_name": "Ananya Textiles Pvt. Ltd.",
+      "country": "India",
+      "tax_id": "06KEFHG6279K2ZF",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Kotak Mahindra Bank",
+      "ifsc_or_swift": "KKBK0709608",
+      "account_number": "76360444884270",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@ananyatextiles.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Gurugram"
+    },
+    {
+      "vendor_id": "V020",
+      "legal_name": "Shreya Consulting Pvt Ltd",
+      "bank_account_name": "Shreya Consulting Private Limited",
+      "country": "India",
+      "tax_id": "06VSLPP3736C0ZV",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Axis Bank",
+      "ifsc_or_swift": "UTIB0438215",
+      "account_number": "96712910643",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@shreyaconsulting.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Noida"
+    },
+    {
+      "vendor_id": "V021",
+      "legal_name": "Ritu Wellness Products Pvt Ltd",
+      "bank_account_name": "Ritu Wellness Products Pvt Ltd",
+      "country": "India",
+      "tax_id": "36ABCDE1234F1Z",
+      "tax_id_type": "GSTIN",
+      "bank_name": "State Bank of India",
+      "ifsc_or_swift": "SBIN0806251",
+      "account_number": "02930286180",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@rituwellnessproduc.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Thane"
+    },
+    {
+      "vendor_id": "V022",
+      "legal_name": "Manish Auto Components Pvt Ltd",
+      "bank_account_name": "Manish Auto Components Pvt Ltd",
+      "country": "India",
+      "tax_id": "36ABCDE1234F1Z55",
+      "tax_id_type": "GSTIN",
+      "bank_name": "State Bank of India",
+      "ifsc_or_swift": "SBIN0806251",
+      "account_number": "36749973486381",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@manishautocomponen.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Faridabad"
+    },
+    {
+      "vendor_id": "V023",
+      "legal_name": "Kiran Electronics Pvt Ltd",
+      "bank_account_name": "Kiran Electronics Pvt Ltd",
+      "country": "India",
+      "tax_id": "36ABCDE1234F1A5",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Bank of Baroda",
+      "ifsc_or_swift": "BARB0162246",
+      "account_number": "024689668488",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@kiranelectronics.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Pune"
+    },
+    {
+      "vendor_id": "V024",
+      "legal_name": "Priya Garments Pvt Ltd",
+      "bank_account_name": "Priya Garments Pvt Ltd",
+      "country": "India",
+      "tax_id": "XXABCDE1234F1Z5",
+      "tax_id_type": "GSTIN",
+      "bank_name": "HDFC Bank",
+      "ifsc_or_swift": "HDFC0209641",
+      "account_number": "99307648401",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@priyagarments.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Secunderabad"
+    },
+    {
+      "vendor_id": "V025",
+      "legal_name": "BluePeak Supplies LLC",
+      "bank_account_name": "BluePeak Supplies LLC",
+      "country": "USA",
+      "tax_id": "36MUSUX1219H8ZG",
+      "tax_id_type": "GSTIN",
+      "bank_name": "ICICI Bank",
+      "ifsc_or_swift": "LZBKUSCBXXX",
+      "account_number": "758844345394",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@bluepeaksuppliesll.com",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Delaware"
+    },
+    {
+      "vendor_id": "V026",
+      "legal_name": "Thames Valley Packaging Ltd",
+      "bank_account_name": "Thames Valley Packaging Ltd",
+      "country": "UK",
+      "tax_id": "12-3456789",
+      "tax_id_type": "EIN",
+      "bank_name": "ICICI Bank",
+      "ifsc_or_swift": "IABRGBNXXXX",
+      "account_number": "75953829543",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@thamesvalleypackag.com",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "London"
+    },
+    {
+      "vendor_id": "V027",
+      "legal_name": "Kavitha Apparels",
+      "bank_account_name": "Kavitha Apparels",
+      "country": "India",
+      "tax_id": "33QURXK8578S1ZJ",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Punjab National Bank",
+      "ifsc_or_swift": "PUNB0071400",
+      "account_number": "468697979979",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@kavithaapparels.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "invoice",
+          "status": "present"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Tiruppur"
+    },
+    {
+      "vendor_id": "V028",
+      "legal_name": "Vikram Engineering Works",
+      "bank_account_name": "Vikram Engineering Works",
+      "country": "India",
+      "tax_id": "33PFFCF0910H3ZK",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "YESB0115081",
+      "account_number": "01835656690471",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@vikramengineeringw.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "quotation",
+          "status": "present"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Chennai"
+    },
+    {
+      "vendor_id": "V029",
+      "legal_name": "Rajesh Metals Pvt Ltd",
+      "bank_account_name": "Rajesh Metals Pvt Ltd",
+      "country": "India",
+      "tax_id": "24CXXPC7069K5ZH",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Bank of Baroda",
+      "ifsc_or_swift": "BARB0162246",
+      "account_number": "439660400582",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@rajeshmetals.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "invoice",
+          "status": "present"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Surat"
+    },
+    {
+      "vendor_id": "V030",
+      "legal_name": "Neha Organic Foods Pvt Ltd",
+      "bank_account_name": "Neha Organic Foods Pvt Ltd",
+      "country": "India",
+      "tax_id": "36LYSTX4217J1ZC",
+      "tax_id_type": "GSTIN",
+      "bank_name": "ICICI Bank",
+      "ifsc_or_swift": "ICIC0699251",
+      "account_number": "635931641620",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@nehaorganicfoods.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "salary_slip",
+          "status": "present"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Hyderabad"
+    },
+    {
+      "vendor_id": "V031",
+      "legal_name": "Pooja Cosmetics Pvt Ltd",
+      "bank_account_name": "Pooja Cosmetics Pvt Ltd",
+      "country": "India",
+      "tax_id": "27OMGVC5631J1Z5",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Kotak Mahindra Bank",
+      "ifsc_or_swift": "KKBK0709608",
+      "account_number": "74477542672",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@poojacosmetics.in",
+      "submitted_on": "2026-11-07",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Mumbai"
+    },
+    {
+      "vendor_id": "V032",
+      "legal_name": "Merlion Trading Pte Ltd",
+      "bank_account_name": "Merlion Trading Pte Ltd",
+      "country": "Singapore",
+      "tax_id": "201929804U",
+      "tax_id_type": "UEN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "BBCISGZBXXX",
+      "account_number": "43084496190312",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@merliontradingptel.com",
+      "submitted_on": "2026-11-07",
+      "documents": [
+        {
+          "type": "incorporation_certificate",
+          "status": "present"
+        },
+        {
+          "type": "tax_registration",
+          "status": "present"
+        },
+        {
+          "type": "bank_statement",
+          "status": "present"
+        }
+      ],
+      "city": "Singapore"
+    },
+    {
+      "vendor_id": "V033",
+      "legal_name": "Nikhil IT Services Pvt Ltd",
+      "bank_account_name": "Nikhil IT Services Pvt Ltd",
+      "country": "India",
+      "tax_id": "29LVHBM1981Q9ZF",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Punjab National Bank",
+      "ifsc_or_swift": "PUNB0071400",
+      "account_number": "35391915886",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@nikhilitservices.in",
+      "submitted_on": "2026-11-07",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Bengaluru"
+    },
+    {
+      "vendor_id": "V034",
+      "legal_name": "Nandini Foods Pvt Ltd",
+      "bank_account_name": "Nandini Foods Pvt Ltd",
+      "country": "India",
+      "tax_id": "27OWPOS9754M6ZM",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "ICIC0699251",
+      "account_number": "12697396011392",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@nandinifoods.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Mumbai"
+    },
+    {
+      "vendor_id": "V035",
+      "legal_name": "Lakshmi Paper Mills",
+      "bank_account_name": "Lakshmi Paper Mills",
+      "country": "India",
+      "tax_id": "33LGEQX0773B8ZJ",
+      "tax_id_type": "GSTIN",
+      "bank_name": "HDFC Bank",
+      "ifsc_or_swift": "PUNB0071400",
+      "account_number": "243647712674",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@lakshmipapermills.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Coimbatore"
+    },
+    {
+      "vendor_id": "V036",
+      "legal_name": "Sunita Dairy Products",
+      "bank_account_name": "Sunita Dairy Products",
+      "country": "India",
+      "tax_id": "09YWQDL7819K7ZV",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Kotak Mahindra Bank",
+      "ifsc_or_swift": "SBIN0806251",
+      "account_number": "71941914429122",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@sunitadairyproduct.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Agra"
+    },
+    {
+      "vendor_id": "V037",
+      "legal_name": "Anita Catering Services",
+      "bank_account_name": "Anita Catering Services",
+      "country": "India",
+      "tax_id": "09SKHKX1532Z5Z3",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Axis Bank",
+      "ifsc_or_swift": "UTIB0438215",
+      "account_number": "79547031316",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@anitacateringservi.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2026-09-15"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Varanasi"
+    },
+    {
+      "vendor_id": "V038",
+      "legal_name": "Varun Solar Systems Pvt Ltd",
+      "bank_account_name": "Varun Solar Systems Pvt Ltd",
+      "country": "India",
+      "tax_id": "29VHDGX6999L5ZN",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Axis Bank",
+      "ifsc_or_swift": "UTIB0438215",
+      "account_number": "808207488589",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@varunsolarsystems.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2026-10-02"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Bengaluru"
+    },
+    {
+      "vendor_id": "V039",
+      "legal_name": "Sri Lakshmi Traders Pvt Ltd",
+      "bank_account_name": "Sri Lakshmi Traders Pvt Ltd",
+      "country": "India",
+      "tax_id": "36ABCDE1234F1Z",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Axis Bank",
+      "ifsc_or_swift": "UTIB0438215",
+      "account_number": "70785887782128",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@srilakshmitraders.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2025-08-20"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Hyderabad"
+    },
+    {
+      "vendor_id": "V040",
+      "legal_name": "Suresh Building Materials Pvt Ltd",
+      "bank_account_name": "Sunita Dairy Products",
+      "country": "India",
+      "tax_id": "36YICCV1378F0Z5",
+      "tax_id_type": "GSTIN",
+      "bank_name": "Yes Bank",
+      "ifsc_or_swift": "YESB0115081",
+      "account_number": "67107019636800",
+      "contact_person": "Accounts Team",
+      "contact_email": "accounts@sureshbuildingmate.in",
+      "submitted_on": "2026-11-06",
+      "documents": [
+        {
+          "type": "gst_certificate",
+          "status": "present",
+          "expiry": "2025-08-20"
+        },
+        {
+          "type": "pan_card",
+          "status": "present"
+        },
+        {
+          "type": "cancelled_cheque",
+          "status": "present"
+        }
+      ],
+      "city": "Warangal"
+    }
+  ]
+}

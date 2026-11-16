@@ -1,0 +1,288 @@
+{
+  "generated": "2026-11-08",
+  "eval_set": [
+    {
+      "vendor_id": "V001",
+      "category": 1,
+      "expected_status": "approve",
+      "expected_reason": "All checks pass: complete documents, valid tax ID, name matches bank account, IFSC consistent.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V002",
+      "category": 1,
+      "expected_status": "approve",
+      "expected_reason": "All checks pass: complete documents, valid tax ID, name matches bank account, IFSC consistent.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V003",
+      "category": 1,
+      "expected_status": "approve",
+      "expected_reason": "All checks pass: complete documents, valid tax ID, name matches bank account, IFSC consistent.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V004",
+      "category": 1,
+      "expected_status": "approve",
+      "expected_reason": "All checks pass: complete documents, valid tax ID, name matches bank account, IFSC consistent.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V005",
+      "category": 1,
+      "expected_status": "approve",
+      "expected_reason": "All checks pass: complete documents, valid tax ID, name matches bank account, IFSC consistent.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V006",
+      "category": 1,
+      "expected_status": "approve",
+      "expected_reason": "All checks pass: complete documents, valid tax ID, name matches bank account, IFSC consistent.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V009",
+      "category": 2,
+      "expected_status": "pending",
+      "expected_reason": "Document missing: GST certificate missing. Request the document from the vendor.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V010",
+      "category": 2,
+      "expected_status": "pending",
+      "expected_reason": "Document missing: Cancelled cheque missing. Request the document from the vendor.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V011",
+      "category": 2,
+      "expected_status": "pending",
+      "expected_reason": "Document missing: PAN card copy missing. Request the document from the vendor.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V012",
+      "category": 2,
+      "expected_status": "pending",
+      "expected_reason": "Document missing: GST certificate missing. Request the document from the vendor.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V013",
+      "category": 2,
+      "expected_status": "pending",
+      "expected_reason": "Document missing: Cancelled cheque missing. Request the document from the vendor.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V015",
+      "category": 3,
+      "expected_status": "reject",
+      "expected_reason": "Fraud signal: bank account belongs to a different legal entity than the submission.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V016",
+      "category": 3,
+      "expected_status": "reject",
+      "expected_reason": "Fraud signal: bank account belongs to a different legal entity than the submission.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V018",
+      "category": 4,
+      "expected_status": "approve",
+      "expected_reason": "Name matches after normalisation (case/punctuation/legal suffix only).",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V019",
+      "category": 4,
+      "expected_status": "approve",
+      "expected_reason": "Name matches after normalisation (case/punctuation/legal suffix only).",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V021",
+      "category": 5,
+      "expected_status": "pending",
+      "expected_reason": "Tax ID format invalid: GSTIN too short (14 chars, needs 15). Ask vendor to correct the tax ID.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V022",
+      "category": 5,
+      "expected_status": "pending",
+      "expected_reason": "Tax ID format invalid: GSTIN too long (16 chars, needs 15). Ask vendor to correct the tax ID.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V023",
+      "category": 5,
+      "expected_status": "pending",
+      "expected_reason": "Tax ID format invalid: GSTIN 14th character must be Z. Ask vendor to correct the tax ID.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V025",
+      "category": 6,
+      "expected_status": "pending",
+      "expected_reason": "Tax ID is GSTIN format but vendor claims USA, which uses EIN. Ask vendor to provide an EIN.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V026",
+      "category": 6,
+      "expected_status": "pending",
+      "expected_reason": "Tax ID is a US EIN format but vendor claims UK, which uses a VAT number. Ask vendor to provide a UK VAT number.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V027",
+      "category": 7,
+      "expected_status": "pending",
+      "expected_reason": "Wrong document attached: Invoice attached instead of GST certificate. Ask vendor to re-attach the correct document.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V028",
+      "category": 7,
+      "expected_status": "pending",
+      "expected_reason": "Wrong document attached: Quotation attached instead of cancelled cheque. Ask vendor to re-attach the correct document.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V029",
+      "category": 7,
+      "expected_status": "pending",
+      "expected_reason": "Wrong document attached: Invoice attached instead of PAN card. Ask vendor to re-attach the correct document.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V031",
+      "category": 8,
+      "expected_status": "pending",
+      "expected_reason": "Duplicate submission of V002: same vendor, same bank details. Link to the original case, do not create a second vendor.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V033",
+      "category": 9,
+      "expected_status": "reject",
+      "expected_reason": "Duplicate submission of V003 with different bank details. Classic payment-fraud pattern: flag for human review.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V034",
+      "category": 10,
+      "expected_status": "pending",
+      "expected_reason": "IFSC belongs to a different bank than the stated bank name. Ask vendor to verify bank details.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V035",
+      "category": 10,
+      "expected_status": "pending",
+      "expected_reason": "IFSC belongs to a different bank than the stated bank name. Ask vendor to verify bank details.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V037",
+      "category": 11,
+      "expected_status": "pending",
+      "expected_reason": "GST certificate expired 2026-09-15 (recently). Ask vendor for a renewed certificate.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V038",
+      "category": 11,
+      "expected_status": "pending",
+      "expected_reason": "GST certificate expired 2026-10-02 (recently). Ask vendor for a renewed certificate.",
+      "in_eval_set": true
+    },
+    {
+      "vendor_id": "V039",
+      "category": 12,
+      "expected_status": "reject",
+      "expected_reason": "GST certificate expired Aug 2025 (14 months) and GSTIN format invalid. Multiple failures, no clean path.",
+      "in_eval_set": true
+    }
+  ],
+  "demo_holdout": [
+    {
+      "vendor_id": "V007",
+      "category": 1,
+      "expected_status": "approve",
+      "expected_reason": "All checks pass: complete documents, valid tax ID, name matches bank account, IFSC consistent.",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V008",
+      "category": 1,
+      "expected_status": "approve",
+      "expected_reason": "All checks pass: complete documents, valid tax ID, name matches bank account, IFSC consistent.",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V014",
+      "category": 2,
+      "expected_status": "pending",
+      "expected_reason": "Document missing: PAN card copy missing. Request the document from the vendor.",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V017",
+      "category": 3,
+      "expected_status": "reject",
+      "expected_reason": "Fraud signal: bank account belongs to a different legal entity than the submission.",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V020",
+      "category": 4,
+      "expected_status": "approve",
+      "expected_reason": "Name matches after normalisation (case/punctuation/legal suffix only).",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V024",
+      "category": 5,
+      "expected_status": "pending",
+      "expected_reason": "Tax ID format invalid: GSTIN state code must be two digits. Ask vendor to correct the tax ID.",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V030",
+      "category": 7,
+      "expected_status": "pending",
+      "expected_reason": "Wrong document attached: Unrelated personal document attached instead of GST certificate. Ask vendor to re-attach the correct document.",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V032",
+      "category": 8,
+      "expected_status": "pending",
+      "expected_reason": "Duplicate submission of V005: same vendor, same bank details. Link to the original case, do not create a second vendor.",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V036",
+      "category": 10,
+      "expected_status": "pending",
+      "expected_reason": "IFSC belongs to a different bank than the stated bank name. Ask vendor to verify bank details.",
+      "in_eval_set": false
+    },
+    {
+      "vendor_id": "V040",
+      "category": 12,
+      "expected_status": "reject",
+      "expected_reason": "GST certificate expired Aug 2025 (14 months) and bank account name differs from the submission.",
+      "in_eval_set": false
+    }
+  ],
+  "eval_note": "Eval set is 30 of 40, covering all 12 categories. Holdout 10 are for the live interview demo only, never in eval."
+}

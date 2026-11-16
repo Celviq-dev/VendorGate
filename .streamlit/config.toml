@@ -1,0 +1,75 @@
+# VendorGate theme. Design system: data-dense flat dashboard, slate
+# neutrals + one professional blue accent, IBM Plex Sans / IBM Plex Mono.
+# [theme.light] + [theme.dark] enable the viewer's light/dark switch
+# (app menu, top right). Light is the default appearance.
+
+[theme]
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+baseFontSize = 14
+headingFontSizes = ["28px", "22px", "17px", "15px", "14px", "12px"]
+headingFontWeights = [650, 600, 600, 600, 600, 600]
+metricValueFontSize = "1.75rem"
+metricValueFontWeight = 650
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+showWidgetBorder = true
+showSidebarBorder = true
+linkUnderline = false
+paddingTop = "1.5rem"
+paddingBottom = "2rem"
+
+[theme.light]
+primaryColor = "#1d4ed8"
+backgroundColor = "#f8fafc"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0f172a"
+borderColor = "#e2e8f0"
+linkColor = "#1d4ed8"
+codeBackgroundColor = "#f1f5f9"
+greenColor = "#15803d"
+orangeColor = "#b45309"
+redColor = "#b91c1c"
+blueColor = "#1d4ed8"
+grayColor = "#475569"
+dataframeHeaderBackgroundColor = "#f1f5f9"
+dataframeBorderColor = "#e2e8f0"
+chartCategoricalColors = ["#1d4ed8", "#15803d", "#b45309", "#b91c1c", "#7c3aed", "#0891b2", "#475569"]
+
+[theme.dark]
+primaryColor = "#3b82f6"
+backgroundColor = "#0b1120"
+secondaryBackgroundColor = "#131b2e"
+textColor = "#e2e8f0"
+borderColor = "#1f2a40"
+linkColor = "#60a5fa"
+codeBackgroundColor = "#1a2338"
+greenColor = "#22c55e"
+orangeColor = "#f59e0b"
+redColor = "#f87171"
+blueColor = "#60a5fa"
+grayColor = "#94a3b8"
+dataframeHeaderBackgroundColor = "#1a2338"
+dataframeBorderColor = "#1f2a40"
+chartCategoricalColors = ["#60a5fa", "#22c55e", "#f59e0b", "#f87171", "#a78bfa", "#22d3ee", "#94a3b8"]
+
+[theme.light.sidebar]
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f5f9"
+codeBackgroundColor = "#f1f5f9"
+textColor = "#0f172a"
+borderColor = "#e2e8f0"
+primaryColor = "#1d4ed8"
+linkColor = "#1d4ed8"
+
+[theme.dark.sidebar]
+backgroundColor = "#0e1526"
+secondaryBackgroundColor = "#131b2e"
+codeBackgroundColor = "#131b2e"
+textColor = "#e2e8f0"
+borderColor = "#1f2a40"
+primaryColor = "#3b82f6"
+linkColor = "#60a5fa"
+
+[client]
+toolbarMode = "viewer"
